@@ -5,6 +5,6 @@ $(document).ready(function(){
 	slides: [
 	    { src: "images/page-back.jpg" }
 	],
-	overlay: 'overlays/02.png'
+	overlay: 'images/overlays/01.png'
 	});
 });

@@ -1,12 +1,32 @@
+/* Fonts Importing */
+@font-face {
+    font-family: headerFont;
+    src: url(../fonts/BentonSans-Bold.otf);
+}
+@font-face {
+    font-family: lightFont;
+    src: url(../fonts/BentonSans-Light.otf);
+}
+@font-face {
+    font-family: leadFont;
+    src: url(../fonts/BentonSans-Book.otf);
+}
+
 /*
 	Common Styles
 */
-
+#hero-wrapper {
+    display: table;
+}
 #herotext {
     display: table-cell;
     position: relative;
     vertical-align: middle;
     text-align: center;
+}
+#hero-wrapper {
+    height: 60vh;
+    width: 100%;
 }
 
 /*
@@ -20,6 +40,56 @@
 .header .navbar {
 	background: none;
 	border: none;
+	margin-top:5px;
+}
+
+.navbar-default .navbar-brand{
+	font-family:headerFont, sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover{
+	color: #fff;
+	/*font-family:lightFont, sans-serif;*/
+	
+}
+.sign-up-link{
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+
+/* Lead text styles */
+.lead-text{
+	font-family:headerFont, sans-serif;
+	color : #fff;
+	font-size: 56px;
+}
+
+.lead-support-text{
+	color:#fff;
+	font-family:lightFont, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	opacity: 0.8;
+}
+
+.read-more-link{
+	color: #fff;
+	text-decoration: underline;
+	opacity: 0.8;
+}
+
+.read-more-link:hover{
+	opacity: 1;
+	color: #fff;
 }
 
 
