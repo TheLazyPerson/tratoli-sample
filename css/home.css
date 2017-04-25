@@ -33,6 +33,14 @@
 	margin-top:80px;
 	margin-bottom: 80px;
 }
+.margin-top-bottom-medium{
+	margin-top:40px;
+	margin-bottom: 40px;
+}
+.margin-top-bottom-small{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
 
 /*
 	Header Styles
@@ -121,3 +129,17 @@
     color: #12b1bf;
 }
 
+/* Tour tab */
+.tour-header{
+	text-align: center;
+}
+.tour-header h1{
+	font-family:leadFont, sans-serif;
+}
+.tour-header h3{
+	font-family:lightFont, sans-serif;
+	font-size: 22px;
+}
+.tour-filter .filter-by{
+	
+}
