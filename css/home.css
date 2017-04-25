@@ -15,6 +15,17 @@
 /*
 	Common Styles
 */
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
 #hero-wrapper {
     display: table;
 }
@@ -78,6 +89,35 @@
 	border: 1px solid #fff;
 	border-radius: 3px;
 }
+.navbar-search .input-group-addon{
+	border: none;
+	color: #fff;
+	background: none;
+	
+}
+.navbar-search .form-control{
+	background: none;
+	border: none;
+	border-bottom: 2px solid #fff;
+	border-radius: 0px;
+	box-shadow: none;
+	color : #fff;
+}
+.navbar-search ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+.navbar-search :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+.navbar-search ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+.navbar-search :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #909;
+}
+
 
 /* Lead text styles */
 .lead-text{
@@ -91,13 +131,11 @@
 	font-family:lightFont, sans-serif;
 	font-size: 18px;
 	font-weight: 600;
-	opacity: 0.8;
 }
 
 .read-more-link{
 	color: #fff;
 	text-decoration: underline;
-	opacity: 0.8;
 }
 
 .read-more-link:hover{
