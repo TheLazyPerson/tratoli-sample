@@ -1,0 +1,25 @@
+/*
+	Common Styles
+*/
+
+#herotext {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*
+	Header Styles
+*/
+.header{
+	min-height: 80vh;
+}
+
+/* Navigation styles */
+.header .navbar {
+	background: none;
+	border: none;
+}
+
+
