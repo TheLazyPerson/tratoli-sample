@@ -167,6 +167,7 @@
     color: #12b1bf;
 }
 
+
 /* Tour tab */
 .tour-header{
 	text-align: center;
@@ -179,5 +180,28 @@
 	font-size: 22px;
 }
 .tour-filter .filter-by{
-	
+	font-size: 16px;
+	line-height: 36px;
+	font-family:headerFont, sans-serif;
 }
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+
+.rating-bar .glyphicon{
+	color: #FFDF00;
+}
+
+
+.tour-filter .dropdown-menu{
+	border-radius:0px;
+}
+.tour-filter .dropdown-menu .divider{
+	margin: 2px 0;
+}
+
+
